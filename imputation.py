@@ -36,7 +36,3 @@ imputed_df['Height'] = knn_imputer.transform(X)
 input_df.loc[missing_height_indices, "Height"] = imputed_df.loc[missing_height_indices, "Height"]
 
 print(input_df)
-
-#Example Output:
-
-#[[1, 'Harry', 23, 172.0, 65, 'Brown'], [2, 'Sally', 45, 171.8, 75, 'Green'], [3, 'Sabrina', 31, 148.0, 58, 'Brown'], [4, 'Alex', 29, 184.0, 68, 'Brown'], [5, 'Jon', 37, 183.0, 70, 'Brown']]
