@@ -12,13 +12,14 @@ When imputing height values please, round the values to one decimal place Be sur
 
 Example Input:
 
+```
 ID,Name,Age,Height,Weight,Eye_Color 
 1,Harry,23,172,65,
 2,Sally,45,,75,Green
 3,Sabrina,31,148,58,Brown
 4,Alex,29,184,68,
 5,Jon,37,183,70,Brown
-
+```
 
 Example Output:
 
